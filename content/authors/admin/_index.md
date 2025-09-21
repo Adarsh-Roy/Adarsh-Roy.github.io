@@ -63,7 +63,7 @@ education:
       Relevant coursework: OS, Algorithms, Theory of Computation, Deep Learning, Data Mining, NLP.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+      url: 'https://drive.google.com/file/d/1kO-Ibymi64UCmhPkHkDTzCjNLWq6drdz/view?usp=sharing'
   - area: AISSCE
     institution: St. Xavier’s Sr. Sec. School, Delhi
     date_start: 2018-04-01
