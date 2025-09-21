@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Backend Engineer @ ML Platform
+role: Backend Engineer @ ML and Apps Platform
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -59,93 +59,129 @@ education:
     date_start: 2020-11-18
     date_end: 2024-08-10
     summary: |
-      Some great summary that comes here.
+      GPA: 8.24/10.<br>
+      Relevant coursework: OS, Algorithms, Theory of Computation, Deep Learning, Data Mining, NLP.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
+  - area: AISSCE
+    institution: St. Xavier’s Sr. Sec. School, Delhi
+    date_start: 2018-04-01
+    date_end: 2020-05-31
+    summary: |
+      Grade: 96.6%
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Backend Engineer @ ML and Apps Platform
+    company_name: Dragonfruit AI
+    company_url: 'https://dragonfruit.at'
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2024-07-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Worked across ML and Apps platforms. Optimized real-time pipelines and backend APIs, cut latency by >95%, and shipped production features in multimodal AI and enterprise apps.
+  - position: Backend Engineer
+    company_name: Amazon
+    company_url: 'https://amazon.com/'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2023-05-15
+    date_end: 2023-07-07
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Built fraud detection and payments features on AWS serverless stack, saving millions in logistics costs and streamlining EU operations.
+  - position: Volunteer Teaching Assistant (Linear Algebra & Differential Equations)
+    company_name: Indian Institute of Technology, Delhi
+    company_url: 'https://home.iitd.ac.in/'
+    date_start: 2023-07-01
+    date_end: 2023-12-31
+    summary: |
+      Assisted paper evaluations, problem classes, and student doubt sessions (Volunteer Role)
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Languages
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
+      - name: Python, C/C++, Rust, Java, SQL, Bash, Lua
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: AI/ML
     items:
-      - name: Hiking in the Rockies
+      - name: PyTorch, LangChain, Vector DBs (Qdrant), RAG, MCP, Scikit-learn
+        icon: cog-6-tooth
+  - name: Cloud & Backend
+    items:
+      - name: AWS (S3, EC2, SNS, DynamoDB, SQS), Flask, GraphQL, REST, JWT
+        icon: cloud
+      - name: Redis, Celery, RabbitMQ, Grafana, ELK stack
+        icon: server
+  - name: Tools
+    items:
+      - name: GitHub Actions, CI/CD, Docker, Pre-commit hooks, W&B, Prompt Engineering
+        icon: wrench
+  - name: Technical Hobbies
+    items:
+      - name: Neovim
         description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: devicon/neovim
+      - name: Terminal Workflows
         description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: command-line
+      - name: Custom Ergonomic Keyboards/Mice
         description: ''
-        percent: 70
+        icon: computer-desktop
+      - name: Typesetting ([<u>*Typst*</u>](https://typst.app/))
+        description: ''
         icon: book-open
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Hindi
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Best Student Paper AI-2025
+    awarder: BCS SGAI (AI-2025)
+    date: '2025-08-31'
     icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+    summary: Awarded Best Student Paper at Cambridge University, work published in Springer Nature Lecture Notes in Computer Science (LNCS).
+
+  - title: JEE Advanced 2020
+    awarder: IIT Joint Entrance Examination (Advanced)
+    date: '2020-09-27'
+    icon: hero/star
+    summary: All India Rank 285 among ~250k candidates.
+
+  - title: JEE Main 2020
+    awarder: National Testing Agency (NTA)
+    date: '2020-09-01'
+    icon: hero/star
+    summary: All India Rank 570 among ~1.1M candidates.
+
+  - title: BITSAT 2020
+    awarder: Birla Institute of Technology and Science (BITS)
+    date: '2020-09-01'
     icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+    summary: Top 0.1% among ~300k candidates.
+
+  - title: KVPY Scholar
+    awarder: DST, Government of India
+    date: '2020-01-01'
+    icon: hero/academic-cap
+    summary: All India Rank 445. Fellowship awarded by Government of India.
+
+  - title: NSEA Merit Award
+    awarder: IAPT
+    date: '2019-12-01'
+    icon: hero/trophy
+    summary: National Top 1% (National Standard Examination in Astronomy).
+
+  - title: Enactus National Competition — Winner
+    awarder: Enactus India
+    date: '2021-08-01'
+    icon: hero/trophy
+    summary: Led the winning presentation video, collaborated with a 50+ member team.
 ---
 The site is under construction right now.

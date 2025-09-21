@@ -1,6 +1,6 @@
 ---
 title: 'Experience'
-date: 2023-10-24
+date: 2025-09-21
 type: landing
 
 design:
@@ -25,8 +25,9 @@ sections:
     design:
       show_skill_percentage: false
   - block: resume-awards
+    id: awards
     content:
-      title: Awards
+      title: Honors and Achievements
       username: admin
   - block: resume-languages
     content:
