@@ -23,7 +23,7 @@ On this page, you'll find some examples of the types of technical content that c
 
 Here's an example of citing a publication using the cite shortcode:
 
-{{< cite page="/publication/preprint" view="citation" >}}
+{{< cite page="/publication/cd-prediction" view="citation" >}}
 
 You can also use the default view by omitting the view parameter:
 
