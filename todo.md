@@ -1,0 +1,1 @@
+- [ ] fix skills and hobies on a bigger screen
