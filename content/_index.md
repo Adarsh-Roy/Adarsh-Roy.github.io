@@ -45,6 +45,20 @@ sections:
     design:
       view: article-grid
       columns: 1
+  - block: collection
+    content:
+      title: Projects
+      # text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      filters:
+        folders:
+          - project
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 1
+      show_date: false
+      show_read_time: false
+      show_read_more: false
   # - block: collection
   #   content:
   #     title: Recent Publications
