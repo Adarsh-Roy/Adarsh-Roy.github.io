@@ -2,6 +2,8 @@
 title: "Car Drag Coefficient Prediction from 3D Point Clouds Using a Slice-Based Surrogate Model"
 authors:
 - admin
+- utkarsh
+- absaar
 date: "2025-09-21T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).

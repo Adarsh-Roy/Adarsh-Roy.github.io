@@ -184,4 +184,4 @@ awards:
     icon: hero/trophy
     summary: Led the winning presentation video, collaborated with a 50+ member team.
 ---
-The site is under construction right now.
+Backend engineer with a background in mathematics and computing. I work across ML and apps platforms, from distributed systems and cloud infrastructure to deep learning and multimodal AI projects. I enjoy writing clean, reliable code and turning research ideas into practical applications.
