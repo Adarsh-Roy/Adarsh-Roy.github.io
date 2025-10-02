@@ -19,7 +19,7 @@ sections:
         text: Resume
         url: uploads/resume.pdf
       headings:
-        about: ''
+        about: 'About me'
         education: ''
         interests: ''
     design:
@@ -46,6 +46,7 @@ sections:
       view: article-grid
       columns: 1
   - block: collection
+    id: projects
     content:
       title: Projects
       # text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
@@ -55,7 +56,7 @@ sections:
     design:
       view: article-grid
       fill_image: false
-      columns: 1
+      columns: 2
       show_date: false
       show_read_time: false
       show_read_more: false
@@ -107,6 +108,30 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: [0, 0, 0, 0]
+  - block: resume-experience
+    id: experience
+    content:
+      username: admin
+    design:
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
+  - block: resume-skills
+    content:
+      title: Skills & Hobbies
+      username: admin
+    design:
+      show_skill_percentage: false
+  - block: resume-awards
+    id: awards
+    content:
+      title: Honors and Achievements
+      username: admin
+  - block: resume-languages
+    content:
+      title: Languages
+      username: admin
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

@@ -14,7 +14,7 @@ pronouns: he/him
 
 # Status emoji
 status:
-  icon: ⌨️
+  icon: ⚪
 
 # Is this the primary user of the site?
 superuser: true
@@ -51,7 +51,7 @@ interests:
   - Large Language Models
   - Computer Vision
   - Reinforcement Learning
-  - Coding workflows
+  - Workflows
 
 education:
   - area: B.Tech Mathematics and Computing

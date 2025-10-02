@@ -11,6 +11,8 @@ tags:
   - Image Denoising
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+This project explores the use of non-local morphological Partial Differential Equations (PDEs) and p-Laplacian operators on graph structures for advanced image denoising and smoothing.
+
+We extend traditional local models with graph-based non-local operators and also introduce fractional order anisotropic diffusion models for improved preservation of image features.
 
 <!--more-->
