@@ -1,0 +1,49 @@
+/* Custom styles for resume skills section */
+
+/* Add top border to the skills section */
+.blox-resume-skills > div > div.flex {
+  border-top: 2px solid rgba(156, 163, 175, 0.3);
+  padding-top: 2rem;
+}
+
+/* Dark mode border */
+.dark .blox-resume-skills > div > div.flex {
+  border-top: 2px solid rgba(209, 213, 219, 0.2);
+}
+
+/* Desktop only (≥1024px) - top-align columns and add dividers */
+@media (min-width: 1024px) {
+  /* Fix alignment - make skill columns start at top instead of center */
+  /* Only target the flex-row container (columns), not the heading */
+  .blox-resume-skills .lg\:flex-row.items-center {
+    align-items: flex-start !important;
+  }
+
+  /* Ensure all column headings have same height so items align */
+  /* This fixes the issue where multi-line headings push content down */
+  .blox-resume-skills .lg\:w-1\/2 > .mb-5 {
+    min-height: 3.5rem; /* Accommodate 2 lines of text */
+    display: flex;
+    align-items: flex-start;
+  }
+
+  /* Add vertical borders between columns */
+  .blox-resume-skills .lg\:w-1\/2:not(:first-child) {
+    border-left: 1px solid rgba(156, 163, 175, 0.2);
+    padding-left: 1.5rem;
+  }
+
+  .dark .blox-resume-skills .lg\:w-1\/2:not(:first-child) {
+    border-left: 1px solid rgba(209, 213, 219, 0.15);
+  }
+
+  /* Ensure first column also has proper padding for symmetry */
+  .blox-resume-skills .lg\:w-1\/2:first-child {
+    padding-right: 1.5rem;
+  }
+}
+
+/* Improve spacing between skill items */
+.blox-resume-skills .skills-content {
+  margin-bottom: 1.25rem;
+}

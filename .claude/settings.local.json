@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(hugo mod graph:*)",
+      "Bash(pgrep:*)",
+      "Bash(hugo:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
