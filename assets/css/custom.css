@@ -47,3 +47,21 @@
 .blox-resume-skills .skills-content {
   margin-bottom: 1.25rem;
 }
+
+  /* Override the gradient background with zinc-based colors */
+  .hbx-bg-gradient::before {
+    background-image:
+      radial-gradient(at 20% 25%, hsla(240, 5%, 96%, 1) 0px, transparent 50%),
+      radial-gradient(at 75% 30%, hsla(240, 4%, 95%, 1) 0px, transparent 50%),
+      radial-gradient(at 25% 80%, hsla(240, 5%, 94%, 1) 0px, transparent 50%),
+      radial-gradient(at 75% 85%, hsla(240, 4%, 95%, 1) 0px, transparent 50%);
+  }
+
+  /* Dark mode version for zinc */
+  .dark .hbx-bg-gradient::before {
+    background-image:
+      radial-gradient(at 20% 25%, hsla(240, 5%, 25%, 1) 0px, transparent 50%),
+      radial-gradient(at 75% 30%, hsla(240, 4%, 20%, 1) 0px, transparent 50%),
+      radial-gradient(at 25% 80%, hsla(240, 5%, 23%, 1) 0px, transparent 50%),
+      radial-gradient(at 75% 85%, hsla(240, 4%, 22%, 1) 0px, transparent 50%);
+  }
