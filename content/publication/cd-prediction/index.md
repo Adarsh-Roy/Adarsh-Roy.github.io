@@ -46,7 +46,7 @@ links:
 # - type: poster
 #   url: "#"
 - type: source
-  url: https://drive.google.com/file/d/1RT3zoN6xiyZIVDPEbrU2WokUlPs8ddYc/view?usp=sharing
+  url: https://doi.org/10.1007/978-3-032-11442-6_5
 # - type: video
 #   url: https://youtube.com
 - type: custom
