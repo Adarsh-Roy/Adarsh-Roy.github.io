@@ -142,7 +142,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Student Paper AI-2025
+  - title: Best Student Paper (Miltos Petridis Memorial Trophy)
     awarder: BCS SGAI (AI-2025)
     date: '2025-08-31'
     icon: hero/trophy
